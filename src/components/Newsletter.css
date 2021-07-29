@@ -1,0 +1,56 @@
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-width: 325px;
+    padding: 4rem;
+    margin-top: 8rem;
+    background-color: rgb(226, 226, 226);
+}
+
+.newsletter > p {
+    min-width: 250px;
+    max-width: 800px;
+    align-self: center;
+}
+
+
+    .submit {
+        margin: 0;
+        margin-top: .7rem;
+        padding: 10px 30px;
+        font-size: 1rem;
+        border: 1px solid #5937BB;
+        color: #5937BB;
+        background-color: transparent;
+    }
+
+    .submit:hover {
+        background-color: #5937BB;
+        color: #fff;
+    }
+
+    @media (min-width: 992px){
+        .submit {
+            font-size: 1.1rem;
+        }
+    }
+
+    .submit-area {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .newsletter-signup {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 1rem;
+    }
+
+    .newsletter-form {
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+        align-self: center;
+    }

@@ -1,0 +1,12 @@
+.back-to-top {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 4rem;
+}
+
+.back-to-top > a {
+	text-decoration: none;
+	color: #000;
+}

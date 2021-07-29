@@ -1,0 +1,12 @@
+.animated-plane {
+    display: none;
+}
+
+@media (min-width: 992px){
+  .animated-plane {
+      display: block;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+}  
+}

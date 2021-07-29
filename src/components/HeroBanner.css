@@ -1,0 +1,48 @@
+.hero-banner {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-heading > h1 {
+    user-select: none;
+}
+
+@media (min-width: 992px){
+    .hero-banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    .banner-heading > h1 {
+        font-size: 5rem;
+    }
+}
+
+.three-canvas {
+    display: flex;
+    height: 300px;
+    align-self: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+@media (min-width: 992px){
+    .three-canvas {
+        height: 400px;
+    }
+}
+
+section.banner-heading {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+@media (min-width: 992px){
+section.banner-heading {
+    width: 50%;
+}    
+}

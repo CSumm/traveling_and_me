@@ -1,0 +1,11 @@
+.category {
+    margin: 1rem;
+	width: clamp(300px, 30%, 50%);
+    text-align: center;
+}
+
+@media (min-width: 992px){
+    .category {
+        text-align: left;
+    }
+}
